@@ -49,42 +49,42 @@ hi TabLineSel   ctermfg=104         ctermbg=236         cterm=Bold
 hi BlingHilight ctermbg=125         ctermfg=bg          cterm=Bold
 
 " gui definition
-hi Normal       guifg=#dadada     guibg=#1c1c1c     gui=None
-hi Cursor       guifg=#dadada     guibg=#5f00ff     gui=None
-hi SpecialKey   guifg=#5faf00     guibg=None        gui=None
-hi Directory    guifg=#5f00ff     guibg=#e4e4e4     gui=None
-hi ErrorMsg     guifg=#d70000     guibg=#8a8a8a     gui=None
-hi PreProc      guifg=#767676     guibg=None        gui=Bold
-hi Search       guifg=#af005f     guibg=None        gui=Bold
-hi Type         guifg=#d75f00     guibg=None        gui=Bold
-hi Statement    guifg=#d78700     guibg=None        gui=Bold
-hi Comment      guifg=#585858     guibg=None        gui=None
-hi LineNr       guifg=#808080     guibg=#121212     gui=None
-hi NonText      guifg=#8787ff     guibg=None        gui=Bold
-hi DiffText     guifg=#d700ff     guibg=#808080     gui=None
-hi Constant     guifg=#5fd700     guibg=None        gui=None
-hi Todo         guifg=#d70087     guibg=None        gui=Bold
-hi Identifier   guifg=#afaf00     guibg=None        gui=Bold
-hi Error        guifg=None        guibg=#ff0000     gui=Bold
-hi Special      guifg=#d78700     guibg=None        gui=Bold
-hi Ignore       guifg=#ffd75f     guibg=None        gui=Bold
-hi Underline    guifg=#afafff     guibg=None        gui=Italic
+hi Normal       guifg=#dadada     guibg=#1c1c1c     gui=NONE
+hi Cursor       guifg=#dadada     guibg=#5f00ff     gui=NONE
+hi SpecialKey   guifg=#5faf00     guibg=NONE        gui=NONE
+hi Directory    guifg=#5f00ff     guibg=#e4e4e4     gui=NONE
+hi ErrorMsg     guifg=#d70000     guibg=#8a8a8a     gui=NONE
+hi PreProc      guifg=#767676     guibg=NONE        gui=Bold
+hi Search       guifg=#af005f     guibg=NONE        gui=Bold
+hi Type         guifg=#d75f00     guibg=NONE        gui=Bold
+hi Statement    guifg=#d78700     guibg=NONE        gui=Bold
+hi Comment      guifg=#585858     guibg=NONE        gui=NONE
+hi LineNr       guifg=#808080     guibg=#121212     gui=NONE
+hi NonText      guifg=#8787ff     guibg=NONE        gui=Bold
+hi DiffText     guifg=#d700ff     guibg=#808080     gui=NONE
+hi Constant     guifg=#5fd700     guibg=NONE        gui=NONE
+hi Todo         guifg=#d70087     guibg=NONE        gui=Bold
+hi Identifier   guifg=#afaf00     guibg=NONE        gui=Bold
+hi Error        guifg=NONE        guibg=#ff0000     gui=Bold
+hi Special      guifg=#d78700     guibg=NONE        gui=Bold
+hi Ignore       guifg=#ffd75f     guibg=NONE        gui=Bold
+hi Underline    guifg=#afafff     guibg=NONE        gui=Italic
 
-hi FoldColumn   guifg=#af5f87     guibg=None        gui=None
-hi Folded       guifg=#af5f87     guibg=None        gui=Bold
+hi FoldColumn   guifg=#af5f87     guibg=NONE        gui=NONE
+hi Folded       guifg=#af5f87     guibg=NONE        gui=Bold
 
-hi Visual       guifg=#a8a8a8     guibg=#444444     gui=None
+hi Visual       guifg=#a8a8a8     guibg=#444444     gui=NONE
 
-hi Pmenu        guifg=#5f5fd7     guibg=#121212     gui=None
+hi Pmenu        guifg=#5f5fd7     guibg=#121212     gui=NONE
 hi PmenuSel     guifg=#5f87ff     guibg=#080808     gui=Bold
 hi PmenuSbar    guifg=#9e9e9e     guibg=#121212     gui=Bold
-hi PmenuThumb   guifg=#a8a8a8     guibg=#121212     gui=None
+hi PmenuThumb   guifg=#a8a8a8     guibg=#121212     gui=NONE
 
-hi StatusLineNC guifg=#a8a8a8     guibg=#4e4e4e     gui=None
-hi StatusLine   guifg=#00afff     guibg=#4e4e4e     gui=None
-hi VertSplit    guifg=#4e4e4e     guibg=#4e4e4e     gui=None
+hi StatusLineNC guifg=#a8a8a8     guibg=#4e4e4e     gui=NONE
+hi StatusLine   guifg=#00afff     guibg=#4e4e4e     gui=NONE
+hi VertSplit    guifg=#4e4e4e     guibg=#4e4e4e     gui=NONE
 
-hi TabLine      guifg=#8a8a8a     guibg=#4e4e4e     gui=None
+hi TabLine      guifg=#8a8a8a     guibg=#4e4e4e     gui=NONE
 hi TabLineFill  guifg=#4e4e4e     guibg=#4e4e4e
 hi TabLineSel   guifg=#8787d7     guibg=#303030     gui=Bold
 hi BlingHilight guibg=#af005f     guifg=bg          gui=Bold
