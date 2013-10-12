@@ -2,13 +2,12 @@
 " Maintainer:	Piotr Husiatyński <phusiatynski@gmail.com>
 
 set background=dark
-set t_Co=256
 let g:colors_name="256-jungle"
 
 let python_highlight_all = 1
 let c_gnu = 1
 
-
+" cterm definition
 hi Normal	    ctermfg=253         ctermbg=234         cterm=None
 hi Cursor       ctermfg=253         ctermbg=57          cterm=None
 hi SpecialKey	ctermfg=70          ctermbg=None        cterm=None
@@ -47,4 +46,5 @@ hi VertSplit    ctermfg=239         ctermbg=239         cterm=None
 hi TabLine      ctermfg=245         ctermbg=239         cterm=None
 hi TabLineFill  ctermfg=239         ctermbg=239
 hi TabLineSel   ctermfg=104         ctermbg=236         cterm=Bold
+hi BlingHilight ctermbg=125         ctermfg=bg          cterm=Bold
 "vim: sw=4
