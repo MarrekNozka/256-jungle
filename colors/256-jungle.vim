@@ -1,5 +1,12 @@
 " Vim color file
 " Maintainer:	Piotr Husiatyński <phusiatynski@gmail.com>
+"
+" https://vim.fandom.com/wiki/Xterm256_color_names_for_console_Vim
+" https://jonasjacek.github.io/colors/
+
+" https://github.com/dolio/256-jungle
+
+
 
 set background=dark
 let g:colors_name="256-jungle"
@@ -10,11 +17,16 @@ let c_gnu = 1
 " cterm definition
 hi Normal	    ctermfg=253         ctermbg=234         cterm=None
 hi Cursor       ctermfg=253         ctermbg=57          cterm=None
+
+hi iCursor      ctermfg=253 guifg=#dadada ctermbg=57 guibg=#5f00ff  cterm=None gui=None
+hi MatchParen   ctermfg=160 guifg=#d70000 ctermbg=8  guibg=#008080  cterm=Bold gui=Bold
+
 hi SpecialKey	ctermfg=70          ctermbg=None        cterm=None
 hi Directory	ctermfg=57          ctermbg=254         cterm=None
 hi ErrorMsg     ctermfg=160         ctermbg=245         cterm=None
 hi PreProc	    ctermfg=243         ctermbg=None        cterm=Bold
 hi Search	    ctermfg=125         ctermbg=None        cterm=Bold
+hi IncSearch    ctermfg=125         ctermbg=106         cterm=Bold
 hi Type		    ctermfg=166         ctermbg=None        cterm=Bold
 hi Statement	ctermfg=172         ctermbg=None        cterm=Bold
 hi Comment	    ctermfg=240         ctermbg=None        cterm=None
