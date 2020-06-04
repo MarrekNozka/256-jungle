@@ -19,9 +19,16 @@ http://www.vim.org/scripts/script.php?script_id=2240
 
 ## Screenshots
 
-* Python ![](python.png)
-* Markdown ![](markdown.png)
-* C ![](c.png)
-* Git ![](git.png)
+* Python 
+  ![](python.png)
+
+* Markdown 
+  ![](markdown.png)
+
+* C 
+  ![](c.png)
+
+* Git
+  ![](git.png)
 
 
