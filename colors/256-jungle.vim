@@ -30,8 +30,8 @@ hi Directory	ctermfg=57        ctermbg=254       cterm=None
 hi Directory    guifg=#5f00ff     guibg=#e4e4e4     gui=NONE
 hi ErrorMsg     ctermfg=160       ctermbg=245       cterm=None
 hi ErrorMsg     guifg=#d70000     guibg=#8a8a8a     gui=NONE
-hi PreProc	    ctermfg=243       ctermbg=None      cterm=Bold
-hi PreProc      guifg=#767676     guibg=NONE        gui=Bold
+hi PreProc	    ctermfg=184       ctermbg=None      cterm=Bold
+hi PreProc      guifg=#d7d700     guibg=NONE        gui=Bold
 hi Search	    ctermfg=125       ctermbg=None      cterm=Bold
 hi Search       guifg=#af005f     guibg=NONE        gui=Bold
 hi IncSearch    ctermfg=125       ctermbg=106       cterm=Bold
@@ -40,8 +40,8 @@ hi Type		    ctermfg=166       ctermbg=None      cterm=Bold
 hi Type         guifg=#d75f00     guibg=NONE        gui=Bold
 hi Statement	ctermfg=172       ctermbg=None      cterm=Bold
 hi Statement    guifg=#d78700     guibg=NONE        gui=Bold
-hi Comment	    ctermfg=240       ctermbg=None      cterm=None
-hi Comment      guifg=#585858     guibg=NONE        gui=NONE
+hi Comment	    ctermfg=247       ctermbg=None      cterm=None
+hi Comment      guifg=#9e9e9e     guibg=NONE        gui=NONE
 hi LineNr	    ctermfg=244       ctermbg=233       cterm=None
 hi LineNr       guifg=#808080     guibg=#121212     gui=NONE
 hi NonText	    ctermfg=105       ctermbg=None      cterm=Bold
